@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   
+  get 'users/login'
+
   get 'home/index'
   
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
