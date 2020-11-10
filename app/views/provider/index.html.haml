@@ -37,6 +37,7 @@
         %th Name
         %th MRN
         %th Age
+        %th Survey Date
         %th Patient Responses
         %th Patient DashBoard
     %tbody
@@ -45,6 +46,7 @@
           %td= question.name
           %td= question.mrn
           %td= question.age
+          %td= question.created_at
           %td= link_to 'View Survey', question#showtouser
           %td= link_to "Edit Feedback", edit_provider_feedback_path(question)
           // %td= link_to 'Edit Response', edit_question_path(question)
