@@ -1,6 +1,8 @@
 # MedicalPersistanceSystem
 https://vast-caverns-51956.herokuapp.com/
 
+![QR code](https://github.com/Siyangyang/MedicalPersistanceSystem2020/blob/master/heroku.png)
+
 # how to install
 ```sh
 git clone https://github.com/Siyangyang/MedicalPersistanceSystem2020.git
