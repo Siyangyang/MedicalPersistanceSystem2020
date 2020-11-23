@@ -1,7 +1,7 @@
 # MedicalPersistanceSystem
-https://vast-caverns-51956.herokuapp.com/
+https://mps-2020-fall.herokuapp.com/
 
-![QR code](https://github.com/Siyangyang/MedicalPersistanceSystem2020/blob/master/heroku.png)
+![QR code](https://github.com/Siyangyang/MedicalPersistanceSystem2020/blob/master/HerokuQR.png)
 
 # how to install
 ```sh
