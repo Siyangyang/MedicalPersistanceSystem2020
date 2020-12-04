@@ -63,7 +63,7 @@ class ProviderController < ApplicationController
                     @patient.question53 + @patient.question54 + \
                     @patient.question55 + @patient.question56) / 6
     # opinion_score = opinion_total / 6
-    @User_trust = trust_score > 3.17 ? "+" : "-"
+    @User_trust = trust_score <= 3.17 ? "+" : "-"
     
     @feedback = @patient.feedback
   end
