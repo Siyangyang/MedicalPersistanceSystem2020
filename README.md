@@ -28,6 +28,14 @@ heroku run rake db:migrate
 heroku run rake db:seed
 ```
 
+### How to link your git repo to an existing heroku app
+
+
+```sh
+heroku git:remote -a mps-2020-fall
+```
+
+
 ##################################split line##################################
 
 ## How to deploy on local:
