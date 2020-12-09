@@ -7,7 +7,7 @@ ruby '2.4.0'
 gem 'rails', '4.2.10'
 # Use sqlite3 as the database for Active Record
 # gem 'pg'
-gem 'pg', '~> 0.21'
+# gem 'pg', '~> 0.21'
 
 
 # gem 'sqlite3', '~> 1.3.6'
@@ -60,6 +60,10 @@ end
 group :test do
   gem 'cucumber-rails', :require => false
   gem 'cucumber-rails-training-wheels'
+end
+
+group :production do
+  gem "pg", '~> 0.21'
 end
 
 gem 'devise'
