@@ -1,6 +1,7 @@
 class ProviderController < ApplicationController
   before_action :authenticate_user!
   def index
+    puts "funct 1"
     @questions = Question.where(user_id: current_user.id)
     
   end
@@ -17,6 +18,7 @@ class ProviderController < ApplicationController
   end
   
   def edit_feedback
+    puts "funct 1"
     # Load JSON file with counselling points
     counsellingPointsFile = File.read('config/counsel_points.json')
     @counsel_points = JSON.parse(counsellingPointsFile)
