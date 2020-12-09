@@ -7,7 +7,7 @@ ruby '2.4.0'
 gem 'rails', '4.2.10'
 # Use sqlite3 as the database for Active Record
 # gem 'pg'
-# gem 'pg', '~> 0.21'
+gem 'pg', '~> 0.21'
 
 
 # gem 'sqlite3', '~> 1.3.6'
@@ -63,7 +63,7 @@ group :test do
 end
 
 group :production do
-  gem "pg", '~> 0.21'
+  # gem "pg", '~> 0.21'
   gem 'rails_12factor'
 end
 
@@ -72,3 +72,4 @@ gem 'devise'
 gem 'rails_admin'
 gem 'dotenv-rails'
 gem 'mailgun_rails'
+gem 'haml', '~> 4.0', '>= 4.0.7'
